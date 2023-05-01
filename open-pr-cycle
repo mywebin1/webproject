@@ -1,0 +1,15 @@
+Workflow for open PR Cycle
+1) Setup Job
+2) Initialize containers
+3) Checkout Branch
+4) Merge Pull Request
+5) Parse EDP Operations File
+6) Retrive Valut secrets
+7) Build Artifacts
+8) Sonarqube Scan
+9) Veracode Scan
+10) Validate Artifacts
+11) Clean up Runner workspace
+12) Post checkout Branch
+13) Stop Containers
+14) Compelte job
