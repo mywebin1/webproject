@@ -1,1 +1,14 @@
-
+Workflow for open PR Cycle
+1) Setup Job
+2) Initialize containers
+3) Checkout Branch
+4) Build and publish Snapshot Artifacts
+5) Sonarqube Scan
+6) Veracode Scan
+7) Validate Artifacts
+8) Build snapshot event payload
+9) Build Relese Artifact Event Payload
+10) Clean up Runner workspace
+12) Post checkout Branch
+13) Stop Containers
+14) Compelte job
